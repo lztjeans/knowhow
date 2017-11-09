@@ -1,0 +1,11 @@
+ref : https://www.openfoundry.org/tw/tech-column/2276
+
+家目錄底下的 .VirtualBox 目錄去查，嘿嘿~果然，有一些要的資訊是躲在 VirtualBox.xml 裡
+./home/tim/.config/VirtualBox/VirtualBox.xml
+
+關鍵的訊息是：uuid="{dc5d1064-d125-431e-988c-95973a871a42}"
+好，目標找到了，那命令該如何下呢？ 只要 ~~
+
+VirtualBox --comment WinXP --startvm dc5d1064-d125-431e-988c-95973a871a42
+  --comment 註解，給人看的訊息，會出現在視窗標題。
+  --startvm 要執行哪部虛擬機器，只要告訴程式 uuid 便可以啦。
