@@ -1,6 +1,4 @@
-ref:  http://lucid-memo.blogspot.tw/2012/04/virtualbox-vm.html
-
 
 VBoxManage startvm --type headless "虛擬機器名稱"
 
-
+ref:  http://lucid-memo.blogspot.tw/2012/04/virtualbox-vm.html
